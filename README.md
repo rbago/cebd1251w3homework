@@ -10,7 +10,16 @@ Completed steps:
 ## Exercise 2.1
 https://hub.docker.com/repository/docker/rafaelbago/w3exercise2hw
 
+Run the following command line:
+`docker run -d -p 8000:8000 rafaelbago/w3exercise2hw`
+
 ### Exercise 2.2
 
-## Exrcise 3
+## Exercise 3
 See this repository for updloaded files
+
+## Exercise 4
+https://hub.docker.com/repository/docker/rafaelbago/w3exercise4hw
+
+Run the following command line:
+`docker run -d -p 8000:8000 -e NAME="INSERT_NAME" rafaelbago/w3exercise4hw`
