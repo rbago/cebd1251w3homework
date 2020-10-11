@@ -14,6 +14,10 @@ Run the following command line:
 `docker run -d -p 8000:8000 rafaelbago/w3exercise2hw`
 
 ### Exercise 2.2
+#### Understanding cache in Docker
+When a Docker image is being built each command is stored in the cache, allowing for speedier builds whenever a new build is process.
+
+One important note about using cache in Docker, when adding a new command within the dockerfile, what follows from the line the cache will no longer be used. Meaning that anything after the new line, even though previously built, it will build and store a new cache layer.
 
 ## Exercise 3
 See this repository for updloaded files
